@@ -1,0 +1,50 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_6 */
+#PublicTransit_mobilebutton_6 {
+
+}
+.ui-btn.PublicTransit_mobilebutton_6 {
+
+}
+/* mobilecontainer */
+.ui-content.PublicTransit_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilebutton_8 */
+#PublicTransit_mobilebutton_8 {
+
+}
+.ui-btn.PublicTransit_mobilebutton_8 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilebutton_9 */
+#PublicTransit_mobilebutton_9 {
+
+}
+.ui-btn.PublicTransit_mobilebutton_9 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilefooter */
+.PublicTransit_mobilefooter {
+	min-height:38px;
+}
+/* mobilenavbar_2 */
+.PublicTransit_mobilenavbar_2 {
+
+}
+.PublicTransit_mobilenavbar_2 .ui-grid-a .ui-block-a {
+	clear:none;
+}
+.ui-footer .PublicTransit_mobilenavbar_2 ul li:last-child a {
+	margin-right: 1px !important;
+}
+.ui-header .PublicTransit_mobilenavbar_2 ul li:last-child a {
+	margin-right: -1px !important;
+}
+.PublicTransit_mobilenavbar_2 ul.ui-grid-duo li:nth-child(even) a {
+	margin-right: 1px !important;
+}

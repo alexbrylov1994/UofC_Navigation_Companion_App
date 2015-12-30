@@ -1,0 +1,50 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_15 */
+#FindClass_mobilebutton_15 {
+
+}
+.ui-btn.FindClass_mobilebutton_15 {
+
+}
+/* mobilecontainer */
+.ui-content.FindClass_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilebutton_9 */
+#FindClass_mobilebutton_9 {
+
+}
+.ui-btn.FindClass_mobilebutton_9 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilebutton_10 */
+#FindClass_mobilebutton_10 {
+
+}
+.ui-btn.FindClass_mobilebutton_10 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilefooter */
+.FindClass_mobilefooter {
+	min-height:38px;
+}
+/* mobilenavbar_13 */
+.FindClass_mobilenavbar_13 {
+
+}
+.FindClass_mobilenavbar_13 .ui-grid-a .ui-block-a {
+	clear:none;
+}
+.ui-footer .FindClass_mobilenavbar_13 ul li:last-child a {
+	margin-right: 1px !important;
+}
+.ui-header .FindClass_mobilenavbar_13 ul li:last-child a {
+	margin-right: -1px !important;
+}
+.FindClass_mobilenavbar_13 ul.ui-grid-duo li:nth-child(even) a {
+	margin-right: 1px !important;
+}

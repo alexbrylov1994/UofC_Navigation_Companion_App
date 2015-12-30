@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            Events
+        </title>
+        
+        <!-- The purpose of this file is to load the newsfeed using RSS from the University of Calgary website -->
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/flat-ui/flat-ui.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.4.4/jquery.mobile.structure-1.4.4.css"
+        rel="stylesheet" />
+        <link type="text/css" rel="stylesheet" href="files/views/assets/css/CSS1.css" />
+        <script type="text/javascript" src="files/resources/lib/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="http://debug.appery.io/target/target-script-min.js#3c35a8c9-8dd3-4ac5-b1cb-67446d582dfb">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.4.4/jquery.mobile-1.4.4.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery-ui-map/jquery.ui.map.full.min.js">
+        </script>
+        <link href="files/resources/lib/exadel-carousel/jquery.mobile.carousel.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="files/resources/lib/exadel-carousel/carousel.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/services/model.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/databaseUtils.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                        $("body").bind("swipeleft", function(e)
+                {
+                    e.preventDefault();
+                });
+                $("body").bind("swiperight", function(e)
+                {
+                    e.preventDefault();
+                });
+        </script>
+        <!-- alignment for inner frame -->
+        <div data-role="page" style="min-height:480px;" dsid="Events" id="Events" class="type-interior"
+        data-theme="b">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="f" name="mobileheader" id="Events_mobileheader" class="Events_mobileheader">
+                <h1 dsid="mobileheader">
+                    News
+                </h1>
+                <!-- mobilebutton_22 -->
+                <a data-role="button" name="mobilebutton_22" dsid="mobilebutton_22" class="Events_mobilebutton_22 ui-btn-left"
+                id="Events_mobilebutton_22" data-corners="true" data-icon="carat-l" data-iconpos="left"
+                x-apple-data-detectors="false" data-inline='true' data-mini='true' data-theme="f"
+                tabindex="1">
+                Back
+                </a>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="Events_mobilecontainer" name="mobilecontainer" class="Events_mobilecontainer ui-content"
+            dsid="mobilecontainer" data-theme="b">
+                
+                <!-- load CSS file -->
+                
+                <link href="Events.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="Events.js">
+                </script>
+                <!-- mobilegrid_9 -->
+                <div class="Events_mobilegrid_9_wrapper" data-wrapper-for="mobilegrid_9">
+                    <table id="Events_mobilegrid_9" class="Events_mobilegrid_9" dsid="mobilegrid_9"
+                    name="mobilegrid_9" cellpadding=0 cellspacing=0>
+                        <col style="width:auto;" />
+                        <tr class="Events_mobilegrid_9_row_0">
+                            <!-- mobilegridcell_10 -->
+                            <td id="Events_mobilegridcell_10" name="mobilegridcell_10" class="Events_mobilegridcell_10"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- link -->
+                                    <div class="Events_link_link_wrapper">
+                                        <a id="Events_link" href="http://appery.io" name="link" dsid="link" data-role="appery_link"
+                                        class="Events_link">
+                                        Link
+                                        </a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="Events_mobilegrid_9_row_1">
+                            <!-- mobilegridcell_12 -->
+                            <td id="Events_mobilegridcell_12" name="mobilegridcell_12" class="Events_mobilegridcell_12"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- pubDate -->
+                                    <div name="pubDate" id="Events_pubDate" dsid="pubDate" data-role="appery_label"
+                                    class="Events_pubDate">
+                                        Label
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="Events_mobilegrid_9_row_2">
+                            <!-- mobilegridcell_14 -->
+                            <td id="Events_mobilegridcell_14" name="mobilegridcell_14" class="Events_mobilegridcell_14"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- html_21 -->
+                                    <div data-role="appery_html" name="html_21" dsid="html_21" id="Events_html_21" class="appery-html  Events_html_21">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="Events_mobilefooter" name="mobilefooter"
+            dsid="mobilefooter" id="Events_mobilefooter" data-theme="f">
+                <!-- mobilenavbar_23 -->
+                <div data-role="navbar" id="Events_mobilenavbar_23" name="mobilenavbar_23" dsid="mobilenavbar_23"
+                class="Events_mobilenavbar_23" data-theme="f" style="position: relative;">
+                    <ul>
+                        <!-- mobilenavbaritem_24 -->
+                        <li>
+                            <a data-theme="f" data-icon="home" id="Events_mobilenavbaritem_24" dsid="mobilenavbaritem_24"
+                            name="mobilenavbaritem_24">
+                            Home
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

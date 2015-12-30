@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            MenuToujours
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/flat-ui/flat-ui.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.4.4/jquery.mobile.structure-1.4.4.css"
+        rel="stylesheet" />
+        <link type="text/css" rel="stylesheet" href="files/views/assets/css/CSS1.css" />
+        <script type="text/javascript" src="files/resources/lib/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="http://debug.appery.io/target/target-script-min.js#3c35a8c9-8dd3-4ac5-b1cb-67446d582dfb">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.4.4/jquery.mobile-1.4.4.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <link href="files/resources/lib/exadel-carousel/jquery.mobile.carousel.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="files/resources/lib/exadel-carousel/carousel.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/login.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/services/model.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/databaseUtils.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                        $("body").bind("swipeleft", function(e)
+                {
+                    e.preventDefault();
+                });
+                $("body").bind("swiperight", function(e)
+                {
+                    e.preventDefault();
+                });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="MenuToujours" id="MenuToujours"
+        class="type-interior" data-theme="b">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="f" name="mobileheader" id="MenuToujours_mobileheader" class="MenuToujours_mobileheader">
+                <h1 dsid="mobileheader">
+                    Menu
+                </h1>
+                <!-- mobilebutton_10 --><!--
+                --><a data-role="button" name="mobilebutton_10" dsid="mobilebutton_10" class="MenuToujours_mobilebutton_10 ui-btn-left"
+                id="MenuToujours_mobilebutton_10" data-corners="true" data-icon="carat-l" data-iconpos="left"
+                x-apple-data-detectors="false" data-inline='true' data-mini='true' data-theme="f"
+                tabindex="1">
+                Back
+                </a>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="MenuToujours_mobilecontainer" name="mobilecontainer"
+            class="MenuToujours_mobilecontainer ui-content" dsid="mobilecontainer" data-theme="b">
+                <link href="MenuToujours.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="MenuToujours.js">
+                </script>
+                <!-- mobilecarousel_15 -->
+                <div id="MenuToujours_mobilecarousel_15" name="mobilecarousel_15" dsid="mobilecarousel_15"
+                data-role="__carousel" tiggzitype="object" apperytype="object" apperyclass="carousel"
+                tiggziclass="carousel" class="MenuToujours_mobilecarousel_15" style="">
+                    <div class="ui-carousel-items">
+                        <div class="ui-left-arrow">
+                        </div>
+                        <div class="ui-right-arrow">
+                        </div>
+                        <div data-role="appery_carouselitem" id="MenuToujours_mobilecarouselitem_16" name="mobilecarouselitem_16"
+                        dsid="mobilecarouselitem_16" data-type="html" data-title="" class="MenuToujours_mobilecarouselitem_16"
+                        style="">
+                            <div style="height: 100%; ">
+                                <!-- mobilelabel_55 -->
+                                <div name="mobilelabel_55" id="MenuToujours_mobilelabel_55" dsid="mobilelabel_55"
+                                data-role="appery_label" class="MenuToujours_mobilelabel_55">
+                                    Beverages
+                                </div>
+                                <!-- mobilegrid_80 -->
+                                <div class="MenuToujours_mobilegrid_80_wrapper" data-wrapper-for="mobilegrid_80">
+                                    <table id="MenuToujours_mobilegrid_80" class="MenuToujours_mobilegrid_80" dsid="mobilegrid_80"
+                                    name="mobilegrid_80" cellpadding=0 cellspacing=0>
+                                        <col style="width:110px;" />
+                                        <col style="width:43px;" />
+                                        <col style="width:55px;" />
+                                        <col style="width:40px;" />
+                                        <col style="width:35px;" />
+                                        <tr class="MenuToujours_mobilegrid_80_row_0">
+                                            <!-- mobilegridcell_81 -->
+                                            <td id="MenuToujours_mobilegridcell_81" name="mobilegridcell_81" class="MenuToujours_mobilegridcell_81"
+                                            colspan=1 rowspan=1>
+                                                <div class="cell-wrapper">
+                                                </div>
+                                            </td>
+                                            <!-- mobilegridcell_82 -->
+                                            <td id="MenuToujours_mobilegridcell_82" name="mobilegridcell_82" class="MenuToujours_mobilegridcell_82"
+                                            colspan=1 rowspan=1>
+                                                <div class="cell-wrapper">
+                                                    <!-- mobilelabel_88 -->
+                                                    <div name="mobilelabel_88" id="MenuToujours_mobilelabel_88" dsid="mobilelabel_88"
+                                                    data-role="appery_label" class="MenuToujours_mobilelabel_88">
+                                                        small
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <!-- mobilegridcell_85 -->
+                                            <td id="MenuToujours_mobilegridcell_85" name="mobilegridcell_85" class="MenuToujours_mobilegridcell_85"
+                                            colspan=1 rowspan=1>
+                                                <div class="cell-wrapper">
+                                                    <!-- mobilelabel_89 -->
+                                                    <div name="mobilelabel_89" id="MenuToujours_mobilelabel_89" dsid="mobilelabel_89"
+                                                    data-role="appery_label" class="MenuToujours_mobilelabel_89">
+                                                        medium
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <!-- mobilegridcell_86 -->
+                                            <td id="MenuToujours_mobilegridcell_86" name="mobilegridcell_86" class="MenuToujours_mobilegridcell_86"
+                                            colspan=1 rowspan=1>
+                                                <div class="cell-wrapper">
+                                                    <!-- mobilelabel_90 -->
+                                                    <div name="mobilelabel_90" id="MenuToujours_mobilelabel_90" dsid="mobilelabel_90"
+                                                    data-role="appery_label" class="MenuToujours_mobilelabel_90">
+                                                        large
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <!-- mobilegridcell_87 -->
+                                            <td id="MenuToujours_mobilegridcell_87" name="mobilegridcell_87" class="MenuToujours_mobilegridcell_87"
+                                            colspan=1 rowspan=1>
+                                                <div class="cell-wrapper">
+                                                    <!-- mobilelabel_91 -->
+                                                    <div name="mobilelabel_91" id="MenuToujours_mobilelabel_91" dsid="mobilelabel_91"
+                                                    data-role="appery_label" class="MenuToujours_mobilelabel_91">
+                                                        1oz
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <!-- mobilegrid_2 -->
+                                <div class="MenuToujours_mobilegrid_2_wrapper" data-wrapper-for="mobilegrid_2">
+                                    <table id="MenuToujours_mobilegrid_2" class="MenuToujours_mobilegrid_2" dsid="mobilegrid_2"
+                                    name="mobilegrid_2" cellpadding=0 cellspacing=0>
+                                        <col style="width:123px;" />
+                                        <col style="width:auto;" />
+                                        <col style="width:auto;" />
+                                        <col style="width:auto;" />
+                                        <col style="width:auto;" />
+                                        <tr class="MenuToujours_mobilegrid_2_row_0">
+                                            <!-- mobilegridcell_3 -->
+                                            <td id="MenuToujours_mobilegridcell_3" name="mobilegridcell_3" class="MenuToujours_mobilegridcell_3"
+                                            colspan=1 rowspan=1>
+                                                <div class="cell-wrapper">
+                                                    <!-- food_name -->
+                                                    <div name="food_name" id="MenuToujours_food_name" dsid="food_name" data-role="appery_label"
+                                                    class="MenuToujours_food_name">
+                                                        Label
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <!-- mobilegridcell_4 -->
+                                            <td id="MenuToujours_mobilegridcell_4" name="mobilegridcell_4" class="MenuToujours_mobilegridcell_4"
+                                            colspan=1 rowspan=1>
+                                                <div class="cell-wrapper">
+                                                    <!-- small -->
+                                                    <div name="small" id="MenuToujours_small" dsid="small" data-role="appery_label"
+                                                    class="MenuToujours_small">
+                                                        Label
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <!-- mobilegridcell_32 -->
+                                            <td id="MenuToujours_mobilegridcell_32" name="mobilegridcell_32" class="MenuToujours_mobilegridcell_32"
+                                            colspan=1 rowspan=1>
+                                                <div class="cell-wrapper">
+                                                    <!-- medium -->
+                                                    <div name="medium" id="MenuToujours_medium" dsid="medium" data-role="appery_label"
+                                                    class="MenuToujours_medium">
+                                                        Label
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <!-- mobilegridcell_33 -->
+                                            <td id="MenuToujours_mobilegridcell_33" name="mobilegridcell_33" class="MenuToujours_mobilegridcell_33"
+                                            colspan=1 rowspan=1>
+                                                <div class="cell-wrapper">
+                                                    <!-- large -->
+                                                    <div name="large" id="MenuToujours_large" dsid="large" data-role="appery_label"
+                                                    class="MenuToujours_large">
+                                                        Label
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <!-- mobilegridcell_34 -->
+                                            <td id="MenuToujours_mobilegridcell_34" name="mobilegridcell_34" class="MenuToujours_mobilegridcell_34"
+                                            colspan=1 rowspan=1>
+                                                <div class="cell-wrapper">
+                                                    <!-- one_onze -->
+                                                    <div name="one_onze" id="MenuToujours_one_onze" dsid="one_onze" data-role="appery_label"
+                                                    class="MenuToujours_one_onze">
+                                                        Label
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-role="appery_carouselitem" id="MenuToujours_mobilecarouselitem_17" name="mobilecarouselitem_17"
+                        dsid="mobilecarouselitem_17" data-type="html" data-title="" class="MenuToujours_mobilecarouselitem_17"
+                        style="">
+                            <div style="height: 100%; ">
+                                <!-- mobilelabel_57 -->
+                                <div name="mobilelabel_57" id="MenuToujours_mobilelabel_57" dsid="mobilelabel_57"
+                                data-role="appery_label" class="MenuToujours_mobilelabel_57">
+                                    Food
+                                </div>
+                                <!-- mobilegrid_74 -->
+                                <div class="MenuToujours_mobilegrid_74_wrapper" data-wrapper-for="mobilegrid_74">
+                                    <table id="MenuToujours_mobilegrid_74" class="MenuToujours_mobilegrid_74" dsid="mobilegrid_74"
+                                    name="mobilegrid_74" cellpadding=0 cellspacing=0>
+                                        <col style="width:auto;" />
+                                        <col style="width:auto;" />
+                                        <tr class="MenuToujours_mobilegrid_74_row_0">
+                                            <!-- mobilegridcell_75 -->
+                                            <td id="MenuToujours_mobilegridcell_75" name="mobilegridcell_75" class="MenuToujours_mobilegridcell_75"
+                                            colspan=1 rowspan=1>
+                                                <div class="cell-wrapper">
+                                                </div>
+                                            </td>
+                                            <!-- mobilegridcell_76 -->
+                                            <td id="MenuToujours_mobilegridcell_76" name="mobilegridcell_76" class="MenuToujours_mobilegridcell_76"
+                                            colspan=1 rowspan=1>
+                                                <div class="cell-wrapper">
+                                                    <!-- mobilelabel_79 -->
+                                                    <div name="mobilelabel_79" id="MenuToujours_mobilelabel_79" dsid="mobilelabel_79"
+                                                    data-role="appery_label" class="MenuToujours_mobilelabel_79">
+                                                        Price
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <!-- food_grid -->
+                                <div class="MenuToujours_food_grid_wrapper" data-wrapper-for="food_grid">
+                                    <table id="MenuToujours_food_grid" class="MenuToujours_food_grid" dsid="food_grid"
+                                    name="food_grid" cellpadding=0 cellspacing=0>
+                                        <col style="width:auto;" />
+                                        <col style="width:auto;" />
+                                        <tr class="MenuToujours_food_grid_row_0">
+                                            <!-- mobilegridcell_67 -->
+                                            <td id="MenuToujours_mobilegridcell_67" name="mobilegridcell_67" class="MenuToujours_mobilegridcell_67"
+                                            colspan=1 rowspan=1>
+                                                <div class="cell-wrapper">
+                                                    <!-- sandwiches -->
+                                                    <div name="sandwiches" id="MenuToujours_sandwiches" dsid="sandwiches" data-role="appery_label"
+                                                    class="MenuToujours_sandwiches">
+                                                        Label
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <!-- mobilegridcell_71 -->
+                                            <td id="MenuToujours_mobilegridcell_71" name="mobilegridcell_71" class="MenuToujours_mobilegridcell_71"
+                                            colspan=1 rowspan=1>
+                                                <div class="cell-wrapper">
+                                                    <!-- sand_price -->
+                                                    <div name="sand_price" id="MenuToujours_sand_price" dsid="sand_price" data-role="appery_label"
+                                                    class="MenuToujours_sand_price">
+                                                        Label
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-role="appery_carouselitem" id="MenuToujours_mobilecarouselitem_56" name="mobilecarouselitem_56"
+                        dsid="mobilecarouselitem_56" data-type="html" data-title="" class="MenuToujours_mobilecarouselitem_56"
+                        style="">
+                            <div style="height: 100%; ">
+                                <!-- mobilelabel_39 -->
+                                <div name="mobilelabel_39" id="MenuToujours_mobilelabel_39" dsid="mobilelabel_39"
+                                data-role="appery_label" class="MenuToujours_mobilelabel_39">
+                                    Hours of Operation:
+                                </div>
+                                <!-- mobilegrid_21 -->
+                                <div class="MenuToujours_mobilegrid_21_wrapper" data-wrapper-for="mobilegrid_21">
+                                    <table id="MenuToujours_mobilegrid_21" class="MenuToujours_mobilegrid_21" dsid="mobilegrid_21"
+                                    name="mobilegrid_21" cellpadding=0 cellspacing=0>
+                                        <col style="width:auto;" />
+                                        <col style="width:auto;" />
+                                        <tr class="MenuToujours_mobilegrid_21_row_0">
+                                            <!-- mobilegridcell_22 -->
+                                            <td id="MenuToujours_mobilegridcell_22" name="mobilegridcell_22" class="MenuToujours_mobilegridcell_22"
+                                            colspan=1 rowspan=1>
+                                                <div class="cell-wrapper">
+                                                    <!-- mobilelabel_26 -->
+                                                    <div name="mobilelabel_26" id="MenuToujours_mobilelabel_26" dsid="mobilelabel_26"
+                                                    data-role="appery_label" class="MenuToujours_mobilelabel_26">
+                                                        Mon-Thur:
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <!-- mobilegridcell_23 -->
+                                            <td id="MenuToujours_mobilegridcell_23" name="mobilegridcell_23" class="MenuToujours_mobilegridcell_23"
+                                            colspan=1 rowspan=1>
+                                                <div class="cell-wrapper">
+                                                    <!-- mobilelabel_30 -->
+                                                    <div name="mobilelabel_30" id="MenuToujours_mobilelabel_30" dsid="mobilelabel_30"
+                                                    data-role="appery_label" class="MenuToujours_mobilelabel_30">
+                                                        7:30am - 7:00pm
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="MenuToujours_mobilegrid_21_row_1">
+                                            <!-- mobilegridcell_24 -->
+                                            <td id="MenuToujours_mobilegridcell_24" name="mobilegridcell_24" class="MenuToujours_mobilegridcell_24"
+                                            colspan=1 rowspan=1>
+                                                <div class="cell-wrapper">
+                                                    <!-- mobilelabel_31 -->
+                                                    <div name="mobilelabel_31" id="MenuToujours_mobilelabel_31" dsid="mobilelabel_31"
+                                                    data-role="appery_label" class="MenuToujours_mobilelabel_31">
+                                                        Friday:
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <!-- mobilegridcell_25 -->
+                                            <td id="MenuToujours_mobilegridcell_25" name="mobilegridcell_25" class="MenuToujours_mobilegridcell_25"
+                                            colspan=1 rowspan=1>
+                                                <div class="cell-wrapper">
+                                                    <!-- mobilelabel_29 -->
+                                                    <div name="mobilelabel_29" id="MenuToujours_mobilelabel_29" dsid="mobilelabel_29"
+                                                    data-role="appery_label" class="MenuToujours_mobilelabel_29">
+                                                        7:30am - 3:00pm
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- mobilebutton_92 --><!--
+                --><a data-role="button" name="mobilebutton_92" dsid="mobilebutton_92" class="MenuToujours_mobilebutton_92"
+                id="MenuToujours_mobilebutton_92" data-corners="true" data-icon="location" data-iconpos="left"
+                x-apple-data-detectors="false" data-mini="false" data-theme="b" tabindex="2">
+                Locate on map!
+                </a>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="MenuToujours_mobilefooter"
+            name="mobilefooter" dsid="mobilefooter" id="MenuToujours_mobilefooter" data-theme="f">
+                <!-- mobilenavbar_11 -->
+                <div data-role="navbar" id="MenuToujours_mobilenavbar_11" name="mobilenavbar_11"
+                dsid="mobilenavbar_11" class="MenuToujours_mobilenavbar_11" data-theme="f" style="position: relative;">
+                    <ul>
+                        <!-- mobilenavbaritem_12 -->
+                        <li>
+                            <a data-theme="f" data-icon="home" id="MenuToujours_mobilenavbaritem_12" dsid="mobilenavbaritem_12"
+                            name="mobilenavbaritem_12">
+                            Home
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

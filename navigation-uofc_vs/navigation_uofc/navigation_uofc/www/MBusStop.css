@@ -1,0 +1,45 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_4 */
+#MBusStop_mobilebutton_4 {
+
+}
+.ui-btn.MBusStop_mobilebutton_4 {
+
+}
+/* mobilecontainer */
+.ui-content.MBusStop_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* html_3 */
+.MBusStop_html_3 {
+	margin: 0px 0px 0px 0px;
+	font-weight: normal;
+	width: 270px; height: 490px;
+}
+div.MBusStop_html_3 {
+	overflow: auto;
+}
+/* mobilefooter */
+.MBusStop_mobilefooter {
+	min-height:38px;
+}
+/* mobilenavbar_5 */
+.MBusStop_mobilenavbar_5 {
+
+}
+.MBusStop_mobilenavbar_5 .ui-grid-a .ui-block-a {
+	clear:none;
+}
+.ui-footer .MBusStop_mobilenavbar_5 ul li:last-child a {
+	margin-right: 1px !important;
+}
+.ui-header .MBusStop_mobilenavbar_5 ul li:last-child a {
+	margin-right: -1px !important;
+}
+.MBusStop_mobilenavbar_5 ul.ui-grid-duo li:nth-child(even) a {
+	margin-right: 1px !important;
+}

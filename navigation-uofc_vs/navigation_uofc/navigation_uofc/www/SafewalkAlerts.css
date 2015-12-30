@@ -1,0 +1,102 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_2 */
+#SafewalkAlerts_mobilebutton_2 {
+
+}
+.ui-btn.SafewalkAlerts_mobilebutton_2 {
+
+}
+/* mobilecontainer */
+.ui-content.SafewalkAlerts_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilegrid_7 */
+.SafewalkAlerts_mobilegrid_7 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.SafewalkAlerts_mobilegrid_7_wrapper {
+
+}
+.SafewalkAlerts_mobilegrid_7 > tr > td {
+	vertical-align: top;
+}
+.SafewalkAlerts_mobilegrid_7_row_0, .SafewalkAlerts_mobilegrid_7_row_0 > td {
+	height: 30px
+}
+.SafewalkAlerts_mobilegrid_7_row_1, .SafewalkAlerts_mobilegrid_7_row_1 > td {
+	height: 30px
+}
+/* mobilegridcell_8 */
+.SafewalkAlerts_mobilegridcell_8 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.SafewalkAlerts_mobilegridcell_8 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* name_of_alert */
+.SafewalkAlerts_name_of_alert {
+	text-decoration: none; font-weight: normal; color: #f5054d; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* safewalk_grid */
+.SafewalkAlerts_safewalk_grid {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.SafewalkAlerts_safewalk_grid > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* description_of_alert */
+.SafewalkAlerts_description_of_alert {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 14px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* spacer_10 */
+.SafewalkAlerts_spacer_10 {
+	width: 260px; height: 41px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilebutton_9 */
+#SafewalkAlerts_mobilebutton_9 {
+
+}
+.ui-btn.SafewalkAlerts_mobilebutton_9 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilefooter */
+.SafewalkAlerts_mobilefooter {
+	min-height:38px;
+}
+/* mobilenavbar_3 */
+.SafewalkAlerts_mobilenavbar_3 {
+
+}
+.SafewalkAlerts_mobilenavbar_3 .ui-grid-a .ui-block-a {
+	clear:none;
+}
+.ui-footer .SafewalkAlerts_mobilenavbar_3 ul li:last-child a {
+	margin-right: 1px !important;
+}
+.ui-header .SafewalkAlerts_mobilenavbar_3 ul li:last-child a {
+	margin-right: -1px !important;
+}
+.SafewalkAlerts_mobilenavbar_3 ul.ui-grid-duo li:nth-child(even) a {
+	margin-right: 1px !important;
+}

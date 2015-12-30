@@ -1,0 +1,45 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_3 */
+#MWashrooms_mobilebutton_3 {
+
+}
+.ui-btn.MWashrooms_mobilebutton_3 {
+
+}
+/* mobilecontainer */
+.ui-content.MWashrooms_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* html_2 */
+.MWashrooms_html_2 {
+	margin: 0px 0px 0px 0px;
+	font-weight: normal;
+	width: 270px; height: 490px;
+}
+div.MWashrooms_html_2 {
+	overflow: auto;
+}
+/* mobilefooter */
+.MWashrooms_mobilefooter {
+	min-height:38px;
+}
+/* mobilenavbar_4 */
+.MWashrooms_mobilenavbar_4 {
+
+}
+.MWashrooms_mobilenavbar_4 .ui-grid-a .ui-block-a {
+	clear:none;
+}
+.ui-footer .MWashrooms_mobilenavbar_4 ul li:last-child a {
+	margin-right: 1px !important;
+}
+.ui-header .MWashrooms_mobilenavbar_4 ul li:last-child a {
+	margin-right: -1px !important;
+}
+.MWashrooms_mobilenavbar_4 ul.ui-grid-duo li:nth-child(even) a {
+	margin-right: 1px !important;
+}

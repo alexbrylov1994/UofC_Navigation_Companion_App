@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            Home
+        </title>
+        
+        <!-- The purpose of this page is to display the main menu with the features of the application using UI buttons -->
+        
+        <!-- The meta tags provide information about the HTML document -->
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="author" content="Alex Brylov, Gee Lin, Elizabeth Nanthavong">
+
+        
+        <!-- Link the appropriate CSS files for the page design -->
+        
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/flat-ui/flat-ui.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.4.4/jquery.mobile.structure-1.4.4.css"
+        rel="stylesheet" />
+        <link type="text/css" rel="stylesheet" href="files/views/assets/css/CSS1.css" />
+        <script type="text/javascript" src="files/resources/lib/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="http://debug.appery.io/target/target-script-min.js#3c35a8c9-8dd3-4ac5-b1cb-67446d582dfb">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.4.4/jquery.mobile-1.4.4.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <link href="files/resources/lib/exadel-carousel/jquery.mobile.carousel.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="files/resources/lib/exadel-carousel/carousel.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/services/model.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/databaseUtils.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                        $("body").bind("swipeleft", function(e)
+                {
+                    e.preventDefault();
+                });
+                $("body").bind("swiperight", function(e)
+                {
+                    e.preventDefault();
+                });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="Home" id="Home" class="type-interior"
+        data-theme="f">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="f" name="mobileheader" id="Home_mobileheader" class="Home_mobileheader">
+                <h1 dsid="mobileheader">
+                    UniMap
+                </h1>
+            </div>
+            <!-- Displays the buttons for the main menu -->
+            <div data-role="content" id="Home_mobilecontainer" name="mobilecontainer" class="Home_mobilecontainer ui-content"
+            dsid="mobilecontainer" data-theme="f">
+                <link href="Home.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="Home.js">
+                </script>
+                <!-- mobilebutton_5 --><!--
+                --><a data-role="button" name="mobilebutton_5" dsid="mobilebutton_5" class="Home_mobilebutton_5"
+                id="Home_mobilebutton_5" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                x-apple-data-detectors="false" data-mini="false" data-theme="f" tabindex="4">
+                Find a Classroom
+                </a><!--
+                --><!-- mobilebutton_8 --><!--
+                --><a data-role="button" name="mobilebutton_8" dsid="mobilebutton_8" class="Home_mobilebutton_8"
+                id="Home_mobilebutton_8" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                x-apple-data-detectors="false" data-mini="false" data-theme="f" tabindex="7">
+                Services
+                </a><!--
+                --><!-- mobilebutton_7 --><!--
+                --><a data-role="button" name="mobilebutton_7" dsid="mobilebutton_7" class="Home_mobilebutton_7"
+                id="Home_mobilebutton_7" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                x-apple-data-detectors="false" data-mini="false" data-theme="f" tabindex="6">
+                News
+                </a><!--
+                --><!-- mobilebutton_6 --><!--
+                --><a data-role="button" name="mobilebutton_6" dsid="mobilebutton_6" class="Home_mobilebutton_6"
+                id="Home_mobilebutton_6" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                x-apple-data-detectors="false" data-mini="false" data-theme="f" tabindex="5">
+                Public Transit
+                </a><!--
+                --><!-- mobilebutton_4 --><!--
+                --><a data-role="button" name="mobilebutton_4" dsid="mobilebutton_4" class="Home_mobilebutton_4"
+                id="Home_mobilebutton_4" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                x-apple-data-detectors="false" data-mini="false" data-theme="f" tabindex="3">
+                Parking Lots
+                </a><!--
+                --><!-- mobilebutton_3 --><!--
+                --><a data-role="button" name="mobilebutton_3" dsid="mobilebutton_3" class="Home_mobilebutton_3"
+                id="Home_mobilebutton_3" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                x-apple-data-detectors="false" data-mini="false" data-theme="f" tabindex="2">
+                Emergency
+                </a><!--
+                --><!-- mobilebutton_2 --><!--
+                --><a data-role="button" name="mobilebutton_2" dsid="mobilebutton_2" class="Home_mobilebutton_2"
+                id="Home_mobilebutton_2" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                x-apple-data-detectors="false" data-mini="true" data-theme="c" tabindex="1">
+                Submit Feedback
+                </a>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="Home_mobilefooter" name="mobilefooter"
+            dsid="mobilefooter" id="Home_mobilefooter" data-theme="f">
+            </div>
+        </div>
+    </body>
+
+</html>

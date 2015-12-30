@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            Feedback
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/flat-ui/flat-ui.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.4.4/jquery.mobile.structure-1.4.4.css"
+        rel="stylesheet" />
+        <link type="text/css" rel="stylesheet" href="files/views/assets/css/CSS1.css" />
+        <script type="text/javascript" src="files/resources/lib/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="http://debug.appery.io/target/target-script-min.js#3c35a8c9-8dd3-4ac5-b1cb-67446d582dfb">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.4.4/jquery.mobile-1.4.4.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery-ui-map/jquery.ui.map.full.min.js">
+        </script>
+        <link href="files/resources/lib/exadel-carousel/jquery.mobile.carousel.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="files/resources/lib/exadel-carousel/carousel.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/services/model.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/databaseUtils.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                        $("body").bind("swipeleft", function(e)
+                {
+                    e.preventDefault();
+                });
+                $("body").bind("swiperight", function(e)
+                {
+                    e.preventDefault();
+                });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="Feeback" id="Feeback" class="type-interior"
+        data-theme="b">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="f" name="mobileheader" id="Feeback_mobileheader" class="Feeback_mobileheader">
+                <h1 dsid="mobileheader">
+                    Feedback
+                </h1>
+                <!-- mobilebutton_55 --><!--
+                --><a data-role="button" name="mobilebutton_55" dsid="mobilebutton_55" class="Feeback_mobilebutton_55 ui-btn-left"
+                id="Feeback_mobilebutton_55" data-corners="true" data-icon="carat-l" data-iconpos="left"
+                x-apple-data-detectors="false" data-inline='true' data-mini='true' data-theme="f"
+                tabindex="10">
+                Back
+                </a>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="Feeback_mobilecontainer" name="mobilecontainer" class="Feeback_mobilecontainer ui-content"
+            dsid="mobilecontainer" data-theme="f">
+                <link href="Feeback.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="Feeback.js">
+                </script>
+                <!-- mobilelabel_73 -->
+                <div name="mobilelabel_73" id="Feeback_mobilelabel_73" dsid="mobilelabel_73" data-role="appery_label"
+                class="Feeback_mobilelabel_73">
+                    Name:
+                </div>
+                <!-- name_area -->
+                <div data-role="fieldcontain" class="Feeback_name_area ">
+                    <input type="text" name="name_area" dsid="name_area" value="" placeholder="" id="Feeback_name_area"
+                    tabindex="2" multiple data-theme="f" class="Feeback_name_area" />
+                </div>
+                <!-- mobilelabel_74 -->
+                <div name="mobilelabel_74" id="Feeback_mobilelabel_74" dsid="mobilelabel_74" data-role="appery_label"
+                class="Feeback_mobilelabel_74">
+                    Email:
+                </div>
+                <!-- email_area -->
+                <div data-role="fieldcontain" class="Feeback_email_area ">
+                    <input type="email" name="email_area" dsid="email_area" value="" placeholder=""
+                    id="Feeback_email_area" tabindex="3" multiple data-theme="f" class="Feeback_email_area"
+                    />
+                </div>
+                <!-- mobilelabel_75 -->
+                <div name="mobilelabel_75" id="Feeback_mobilelabel_75" dsid="mobilelabel_75" data-role="appery_label"
+                class="Feeback_mobilelabel_75">
+                    Comment:
+                </div>
+                <!-- report_area -->
+                <div data-role="fieldcontain" class="Feeback_report_area ">
+                    <textarea name="report_area" id="Feeback_report_area" tabindex="19" dsid="report_area"
+                    data-theme="f" placeholder="" class="Feeback_report_area">
+</textarea>
+                </div>
+                <!-- spacer_27 -->
+                <div id="Feeback_spacer_27" data-role="appery_spacer" dsid="spacer_27" class='mobilespacer Feeback_spacer_27'>
+                </div>
+                <!-- mobilegrid_86 -->
+                <div class="Feeback_mobilegrid_86_wrapper" data-wrapper-for="mobilegrid_86">
+                    <table id="Feeback_mobilegrid_86" class="Feeback_mobilegrid_86" dsid="mobilegrid_86"
+                    name="mobilegrid_86" cellpadding=0 cellspacing=0>
+                        <col style="width:auto;" />
+                        <tr class="Feeback_mobilegrid_86_row_0">
+                            <!-- mobilegridcell_87 -->
+                            <td id="Feeback_mobilegridcell_87" name="mobilegridcell_87" class="Feeback_mobilegridcell_87"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- mobilegrid_76 -->
+                <div class="Feeback_mobilegrid_76_wrapper" data-wrapper-for="mobilegrid_76">
+                    <table id="Feeback_mobilegrid_76" class="Feeback_mobilegrid_76" dsid="mobilegrid_76"
+                    name="mobilegrid_76" cellpadding=0 cellspacing=0>
+                        <col style="width:auto;" />
+                        <col style="width:auto;" />
+                        <tr class="Feeback_mobilegrid_76_row_0">
+                            <!-- mobilegridcell_77 -->
+                            <td id="Feeback_mobilegridcell_77" name="mobilegridcell_77" class="Feeback_mobilegridcell_77"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilebutton_81 --><!--
+                                    --><a data-role="button" name="mobilebutton_81" dsid="mobilebutton_81" class="Feeback_mobilebutton_81"
+                                    id="Feeback_mobilebutton_81" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                                    x-apple-data-detectors="false" data-mini="false" data-theme="f" tabindex="16">
+                                    Submit
+                                    </a>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_83 -->
+                            <td id="Feeback_mobilegridcell_83" name="mobilegridcell_83" class="Feeback_mobilegridcell_83"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilebutton_85 --><!--
+                                    --><a data-role="button" name="mobilebutton_85" dsid="mobilebutton_85" class="Feeback_mobilebutton_85"
+                                    id="Feeback_mobilebutton_85" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                                    x-apple-data-detectors="false" data-mini="false" data-theme="f" tabindex="18">
+                                    Clear
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="Feeback_mobilefooter" name="mobilefooter"
+            dsid="mobilefooter" id="Feeback_mobilefooter" data-theme="f">
+                <!-- mobilenavbar_45 -->
+                <div data-role="navbar" id="Feeback_mobilenavbar_45" name="mobilenavbar_45" dsid="mobilenavbar_45"
+                class="Feeback_mobilenavbar_45" data-theme="f" style="position: relative;">
+                    <ul>
+                        <!-- mobilenavbaritem_47 -->
+                        <li>
+                            <a data-theme="f" data-icon="home" id="Feeback_mobilenavbaritem_47" dsid="mobilenavbaritem_47"
+                            name="mobilenavbaritem_47">
+                            Home
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

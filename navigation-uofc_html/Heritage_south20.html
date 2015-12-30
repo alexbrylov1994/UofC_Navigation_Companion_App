@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            Heritage_south20
+        </title>
+        
+        <!-- The code below displays the schedule for bus route 20 using a database -->
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/flat-ui/flat-ui.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.4.4/jquery.mobile.structure-1.4.4.css"
+        rel="stylesheet" />
+        <link type="text/css" rel="stylesheet" href="files/views/assets/css/CSS1.css" />
+        <script type="text/javascript" src="files/resources/lib/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="http://debug.appery.io/target/target-script-min.js#3c35a8c9-8dd3-4ac5-b1cb-67446d582dfb">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.4.4/jquery.mobile-1.4.4.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery-ui-map/jquery.ui.map.full.min.js">
+        </script>
+        <link href="files/resources/lib/exadel-carousel/jquery.mobile.carousel.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="files/resources/lib/exadel-carousel/carousel.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/services/model.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/databaseUtils.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                        $("body").bind("swipeleft", function(e)
+                {
+                    e.preventDefault();
+                });
+                $("body").bind("swiperight", function(e)
+                {
+                    e.preventDefault();
+                });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="Heritage_south20" id="Heritage_south20"
+        class="type-interior" data-theme="b">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="f" name="mobileheader" id="Heritage_south20_mobileheader" class="Heritage_south20_mobileheader">
+                <h1 dsid="mobileheader">
+                    20 South
+                </h1>
+                <!-- mobilebutton_41 --><!--
+                --><a data-role="button" name="mobilebutton_41" dsid="mobilebutton_41" class="Heritage_south20_mobilebutton_41 ui-btn-left"
+                id="Heritage_south20_mobilebutton_41" data-corners="true" data-icon="carat-l" data-iconpos="left"
+                x-apple-data-detectors="false" data-inline='true' data-mini='true' data-theme="f"
+                tabindex="1">
+                Back
+                </a>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="Heritage_south20_mobilecontainer" name="mobilecontainer"
+            class="Heritage_south20_mobilecontainer ui-content" dsid="mobilecontainer" data-theme="f">
+                <link href="Heritage_south20.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="Heritage_south20.js">
+                </script>
+                <!-- mobilecarousel_21 -->
+                <div id="Heritage_south20_mobilecarousel_21" name="mobilecarousel_21" dsid="mobilecarousel_21"
+                data-role="__carousel" tiggzitype="object" apperytype="object" apperyclass="carousel"
+                tiggziclass="carousel" class="Heritage_south20_mobilecarousel_21" style="">
+                    <div class="ui-carousel-items">
+                        <div class="ui-left-arrow">
+                        </div>
+                        <div class="ui-right-arrow">
+                        </div>
+                        <div data-role="appery_carouselitem" id="Heritage_south20_mobilecarouselitem_22"
+                        name="mobilecarouselitem_22" dsid="mobilecarouselitem_22" data-type="html" data-title=""
+                        class="Heritage_south20_mobilecarouselitem_22" style="">
+                            <div style="height: 100%; ">
+                                <!-- mobilelabel_25 -->
+                                <div name="mobilelabel_25" id="Heritage_south20_mobilelabel_25" dsid="mobilelabel_25"
+                                data-role="appery_label" class="Heritage_south20_mobilelabel_25">
+                                    Morning (4:00 AM to 11:59 AM)
+                                </div>
+                                <!-- morning_grid -->
+                                <div class="Heritage_south20_morning_grid_wrapper" data-wrapper-for="morning_grid">
+                                    <table id="Heritage_south20_morning_grid" class="Heritage_south20_morning_grid"
+                                    dsid="morning_grid" name="morning_grid" cellpadding=0 cellspacing=0>
+                                        <col style="width:auto;" />
+                                        <tr class="Heritage_south20_morning_grid_row_0">
+                                            <!-- mobilegridcell_29 -->
+                                            <td id="Heritage_south20_mobilegridcell_29" name="mobilegridcell_29" class="Heritage_south20_mobilegridcell_29"
+                                            colspan=1 rowspan=1>
+                                                <div class="cell-wrapper">
+                                                    <!-- morning_label -->
+                                                    <div name="morning_label" id="Heritage_south20_morning_label" dsid="morning_label"
+                                                    data-role="appery_label" class="Heritage_south20_morning_label">
+                                                        Label
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-role="appery_carouselitem" id="Heritage_south20_mobilecarouselitem_23"
+                        name="mobilecarouselitem_23" dsid="mobilecarouselitem_23" data-type="html" data-title=""
+                        class="Heritage_south20_mobilecarouselitem_23" style="">
+                            <div style="height: 100%; ">
+                                <!-- mobilelabel_26 -->
+                                <div name="mobilelabel_26" id="Heritage_south20_mobilelabel_26" dsid="mobilelabel_26"
+                                data-role="appery_label" class="Heritage_south20_mobilelabel_26">
+                                    Afternoon (12:00 PM to 5:59 PM)
+                                </div>
+                                <!-- afternoon_grid -->
+                                <div class="Heritage_south20_afternoon_grid_wrapper" data-wrapper-for="afternoon_grid">
+                                    <table id="Heritage_south20_afternoon_grid" class="Heritage_south20_afternoon_grid"
+                                    dsid="afternoon_grid" name="afternoon_grid" cellpadding=0 cellspacing=0>
+                                        <col style="width:auto;" />
+                                        <tr class="Heritage_south20_afternoon_grid_row_0">
+                                            <!-- mobilegridcell_34 -->
+                                            <td id="Heritage_south20_mobilegridcell_34" name="mobilegridcell_34" class="Heritage_south20_mobilegridcell_34"
+                                            colspan=1 rowspan=1>
+                                                <div class="cell-wrapper">
+                                                    <!-- afternoon_label -->
+                                                    <div name="afternoon_label" id="Heritage_south20_afternoon_label" dsid="afternoon_label"
+                                                    data-role="appery_label" class="Heritage_south20_afternoon_label">
+                                                        Label
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-role="appery_carouselitem" id="Heritage_south20_mobilecarouselitem_24"
+                        name="mobilecarouselitem_24" dsid="mobilecarouselitem_24" data-type="html" data-title=""
+                        class="Heritage_south20_mobilecarouselitem_24" style="">
+                            <div style="height: 100%; ">
+                                <!-- mobilelabel_27 -->
+                                <div name="mobilelabel_27" id="Heritage_south20_mobilelabel_27" dsid="mobilelabel_27"
+                                data-role="appery_label" class="Heritage_south20_mobilelabel_27">
+                                    Evening (6:00 PM to 5:59 PM)
+                                </div>
+                                <!-- evening_grid -->
+                                <div class="Heritage_south20_evening_grid_wrapper" data-wrapper-for="evening_grid">
+                                    <table id="Heritage_south20_evening_grid" class="Heritage_south20_evening_grid"
+                                    dsid="evening_grid" name="evening_grid" cellpadding=0 cellspacing=0>
+                                        <col style="width:auto;" />
+                                        <tr class="Heritage_south20_evening_grid_row_0">
+                                            <!-- mobilegridcell_47 -->
+                                            <td id="Heritage_south20_mobilegridcell_47" name="mobilegridcell_47" class="Heritage_south20_mobilegridcell_47"
+                                            colspan=1 rowspan=1>
+                                                <div class="cell-wrapper">
+                                                    <!-- evening_label -->
+                                                    <div name="evening_label" id="Heritage_south20_evening_label" dsid="evening_label"
+                                                    data-role="appery_label" class="Heritage_south20_evening_label">
+                                                        Label
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="Heritage_south20_mobilefooter"
+            name="mobilefooter" dsid="mobilefooter" id="Heritage_south20_mobilefooter" data-theme="f">
+                <!-- mobilenavbar_42 -->
+                <div data-role="navbar" id="Heritage_south20_mobilenavbar_42" name="mobilenavbar_42"
+                dsid="mobilenavbar_42" class="Heritage_south20_mobilenavbar_42" data-theme="f" style="position: relative;">
+                    <ul>
+                        <!-- mobilenavbaritem_43 -->
+                        <li>
+                            <a data-theme="f" data-icon="home" id="Heritage_south20_mobilenavbaritem_43" dsid="mobilenavbaritem_43"
+                            name="mobilenavbaritem_43">
+                            Home
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

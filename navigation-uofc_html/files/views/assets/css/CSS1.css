@@ -1,0 +1,9 @@
+.appery-html img
+{
+    max-width:100%;
+    height:auto;
+}
+.has-media iframe {
+    max-width:100%;
+    height:auto;
+}

@@ -1,0 +1,181 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_41 */
+#Heritage_south20_mobilebutton_41 {
+
+}
+.ui-btn.Heritage_south20_mobilebutton_41 {
+
+}
+/* mobilecontainer */
+.ui-content.Heritage_south20_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilecarousel_21 */
+.Heritage_south20_mobilecarousel_21 {
+	margin: 0px 0px 0px 0px!important;
+}
+.Heritage_south20_mobilecarousel_21 ul {
+	margin: 0px 0px 0px 0px!important;
+}
+.Heritage_south20_mobilecarousel_21 .ui-carousel-box {
+	min-height: 50px;
+}
+/* mobilecarouselitem_22 */
+.Heritage_south20_mobilecarouselitem_22 .ui-carousel-box {
+	padding: 0px 0px 0px 0px;
+}
+/* mobilelabel_25 */
+.Heritage_south20_mobilelabel_25 {
+	text-decoration: none; font-weight: normal; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* morning_grid */
+.Heritage_south20_morning_grid {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.Heritage_south20_morning_grid_wrapper {
+
+}
+.Heritage_south20_morning_grid > tr > td {
+	vertical-align: top;
+}
+.Heritage_south20_morning_grid_row_0, .Heritage_south20_morning_grid_row_0 > td {
+	height: 29px
+}
+/* mobilegridcell_29 */
+.Heritage_south20_mobilegridcell_29 {
+	height:29px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.Heritage_south20_mobilegridcell_29 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* morning_label */
+.Heritage_south20_morning_label {
+	text-decoration: none; font-weight: normal; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilecarouselitem_23 */
+.Heritage_south20_mobilecarouselitem_23 .ui-carousel-box {
+	padding: 0px 0px 0px 0px;
+}
+/* mobilelabel_26 */
+.Heritage_south20_mobilelabel_26 {
+	text-decoration: none; font-weight: normal; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* afternoon_grid */
+.Heritage_south20_afternoon_grid {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.Heritage_south20_afternoon_grid_wrapper {
+
+}
+.Heritage_south20_afternoon_grid > tr > td {
+	vertical-align: top;
+}
+.Heritage_south20_afternoon_grid_row_0, .Heritage_south20_afternoon_grid_row_0 > td {
+	height: 30px
+}
+/* mobilegridcell_34 */
+.Heritage_south20_mobilegridcell_34 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.Heritage_south20_mobilegridcell_34 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* afternoon_label */
+.Heritage_south20_afternoon_label {
+	text-decoration: none; font-weight: normal; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilecarouselitem_24 */
+.Heritage_south20_mobilecarouselitem_24 .ui-carousel-box {
+	padding: 0px 0px 0px 0px;
+}
+/* mobilelabel_27 */
+.Heritage_south20_mobilelabel_27 {
+	text-decoration: none; font-weight: normal; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* evening_grid */
+.Heritage_south20_evening_grid {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.Heritage_south20_evening_grid_wrapper {
+
+}
+.Heritage_south20_evening_grid > tr > td {
+	vertical-align: top;
+}
+.Heritage_south20_evening_grid_row_0, .Heritage_south20_evening_grid_row_0 > td {
+	height: 30px
+}
+/* mobilegridcell_47 */
+.Heritage_south20_mobilegridcell_47 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.Heritage_south20_mobilegridcell_47 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* evening_label */
+.Heritage_south20_evening_label {
+	text-decoration: none; font-weight: normal; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilefooter */
+.Heritage_south20_mobilefooter {
+	min-height:38px;
+}
+/* mobilenavbar_42 */
+.Heritage_south20_mobilenavbar_42 {
+
+}
+.Heritage_south20_mobilenavbar_42 .ui-grid-a .ui-block-a {
+	clear:none;
+}
+.ui-footer .Heritage_south20_mobilenavbar_42 ul li:last-child a {
+	margin-right: 1px !important;
+}
+.ui-header .Heritage_south20_mobilenavbar_42 ul li:last-child a {
+	margin-right: -1px !important;
+}
+.Heritage_south20_mobilenavbar_42 ul.ui-grid-duo li:nth-child(even) a {
+	margin-right: 1px !important;
+}

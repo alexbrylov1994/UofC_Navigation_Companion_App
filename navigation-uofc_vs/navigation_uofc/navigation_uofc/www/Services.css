@@ -1,0 +1,60 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_2 */
+#Services_mobilebutton_2 {
+
+}
+.ui-btn.Services_mobilebutton_2 {
+
+}
+/* mobilecontainer */
+.ui-content.Services_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilelist_21 */
+.ui-page .Services_mobilelist_21 {
+	margin: 4px 0px 0px 0px;
+}
+/* mobilelistitem_22 */
+/* mobilelistitembutton_23 */
+.Services_mobilelistitembutton_23 {
+
+}
+/* mobilelistitem_24 */
+/* mobilelistitembutton_25 */
+.Services_mobilelistitembutton_25 {
+
+}
+/* mobilelistitem_26 */
+/* mobilelistitembutton_27 */
+.Services_mobilelistitembutton_27 {
+
+}
+/* mobilelistitem_28 */
+/* mobilelistitembutton_29 */
+.Services_mobilelistitembutton_29 {
+
+}
+/* mobilefooter */
+.Services_mobilefooter {
+	min-height:38px;
+}
+/* mobilenavbar_7 */
+.Services_mobilenavbar_7 {
+
+}
+.Services_mobilenavbar_7 .ui-grid-a .ui-block-a {
+	clear:none;
+}
+.ui-footer .Services_mobilenavbar_7 ul li:last-child a {
+	margin-right: 1px !important;
+}
+.ui-header .Services_mobilenavbar_7 ul li:last-child a {
+	margin-right: -1px !important;
+}
+.Services_mobilenavbar_7 ul.ui-grid-duo li:nth-child(even) a {
+	margin-right: 1px !important;
+}

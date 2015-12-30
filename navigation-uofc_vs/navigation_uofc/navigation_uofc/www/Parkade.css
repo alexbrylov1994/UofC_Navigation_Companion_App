@@ -1,0 +1,104 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_2 */
+#Parkade_mobilebutton_2 {
+
+}
+.ui-btn.Parkade_mobilebutton_2 {
+
+}
+/* mobilecontainer */
+.ui-content.Parkade_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilegrid_7 */
+.Parkade_mobilegrid_7 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.Parkade_mobilegrid_7_wrapper {
+
+}
+.Parkade_mobilegrid_7 > tr > td {
+	vertical-align: top;
+}
+.Parkade_mobilegrid_7_row_0, .Parkade_mobilegrid_7_row_0 > td {
+	height: 30px
+}
+/* mobilegridcell_8 */
+.Parkade_mobilegridcell_8 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.Parkade_mobilegridcell_8 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* parking_lot */
+.Parkade_parking_lot {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_9 */
+.Parkade_mobilegridcell_9 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.Parkade_mobilegridcell_9 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* price */
+.Parkade_price {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_14 */
+.Parkade_mobilegridcell_14 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.Parkade_mobilegridcell_14 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* description */
+.Parkade_description {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilefooter */
+.Parkade_mobilefooter {
+	min-height:38px;
+}
+/* mobilenavbar_3 */
+.Parkade_mobilenavbar_3 {
+
+}
+.Parkade_mobilenavbar_3 .ui-grid-a .ui-block-a {
+	clear:none;
+}
+.ui-footer .Parkade_mobilenavbar_3 ul li:last-child a {
+	margin-right: 1px !important;
+}
+.ui-header .Parkade_mobilenavbar_3 ul li:last-child a {
+	margin-right: -1px !important;
+}
+.Parkade_mobilenavbar_3 ul.ui-grid-duo li:nth-child(even) a {
+	margin-right: 1px !important;
+}

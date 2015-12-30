@@ -1,0 +1,51 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_23 */
+#SuccessfulSubmission_mobilebutton_23 {
+
+}
+.ui-btn.SuccessfulSubmission_mobilebutton_23 {
+
+}
+/* mobilecontainer */
+.ui-content.SuccessfulSubmission_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* spacer_21 */
+.SuccessfulSubmission_spacer_21 {
+	width: 260px; height: 69px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_19 */
+.SuccessfulSubmission_mobilelabel_19 {
+	text-decoration: none; font-weight: normal; text-align: center; font-family: Helvetica; font-size: 22px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_20 */
+.SuccessfulSubmission_mobilelabel_20 {
+	text-decoration: none; font-weight: normal; text-align: center; font-family: Helvetica; font-size: 18px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* spacer_22 */
+.SuccessfulSubmission_spacer_22 {
+	width: 260px; height: 73px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilebutton_18 */
+#SuccessfulSubmission_mobilebutton_18 {
+
+}
+.ui-btn.SuccessfulSubmission_mobilebutton_18 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilefooter */
+.SuccessfulSubmission_mobilefooter {
+	min-height:38px;
+}

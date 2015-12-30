@@ -1,0 +1,60 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_10 */
+#Emergency_mobilebutton_10 {
+
+}
+.ui-btn.Emergency_mobilebutton_10 {
+
+}
+/* mobilecontainer */
+.ui-content.Emergency_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilelist_11 */
+.ui-page .Emergency_mobilelist_11 {
+	margin: 4px 0px 0px 0px;
+}
+/* mobilelistitem_12 */
+/* mobilelistitembutton_13 */
+.Emergency_mobilelistitembutton_13 {
+
+}
+/* mobilelistitem_14 */
+/* mobilelistitembutton_15 */
+.Emergency_mobilelistitembutton_15 {
+
+}
+/* mobilelistitem_16 */
+/* mobilelistitembutton_17 */
+.Emergency_mobilelistitembutton_17 {
+
+}
+/* mobilelistitem_18 */
+/* mobilelistitembutton_19 */
+.Emergency_mobilelistitembutton_19 {
+
+}
+/* mobilefooter */
+.Emergency_mobilefooter {
+	min-height:38px;
+}
+/* mobilenavbar_6 */
+.Emergency_mobilenavbar_6 {
+
+}
+.Emergency_mobilenavbar_6 .ui-grid-a .ui-block-a {
+	clear:none;
+}
+.ui-footer .Emergency_mobilenavbar_6 ul li:last-child a {
+	margin-right: 1px !important;
+}
+.ui-header .Emergency_mobilenavbar_6 ul li:last-child a {
+	margin-right: -1px !important;
+}
+.Emergency_mobilenavbar_6 ul.ui-grid-duo li:nth-child(even) a {
+	margin-right: 1px !important;
+}

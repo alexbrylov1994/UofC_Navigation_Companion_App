@@ -1,0 +1,466 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_10 */
+#MenuToujours_mobilebutton_10 {
+
+}
+.ui-btn.MenuToujours_mobilebutton_10 {
+
+}
+/* mobilecontainer */
+.ui-content.MenuToujours_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilecarousel_15 */
+.MenuToujours_mobilecarousel_15 {
+	margin: 0px 0px 0px 0px!important;
+}
+.MenuToujours_mobilecarousel_15 ul {
+	margin: 0px 0px 0px 0px!important;
+}
+.MenuToujours_mobilecarousel_15 .ui-carousel-box {
+	min-height: 50px;
+}
+/* mobilecarouselitem_16 */
+.MenuToujours_mobilecarouselitem_16 .ui-carousel-box {
+	padding: 10px 0px 10px 0px;
+}
+/* mobilelabel_55 */
+.MenuToujours_mobilelabel_55 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegrid_80 */
+.MenuToujours_mobilegrid_80 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.MenuToujours_mobilegrid_80_wrapper {
+
+}
+.MenuToujours_mobilegrid_80 > tr > td {
+	vertical-align: top;
+}
+.MenuToujours_mobilegrid_80_row_0, .MenuToujours_mobilegrid_80_row_0 > td {
+	height: 0px
+}
+/* mobilegridcell_81 */
+.MenuToujours_mobilegridcell_81 {
+	height:0px !important;
+	width:106px;
+	padding: 2px 2px 2px 2px;
+}
+.MenuToujours_mobilegridcell_81 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_82 */
+.MenuToujours_mobilegridcell_82 {
+	height:0px !important;
+	width:39px;
+	padding: 2px 2px 2px 2px;
+}
+.MenuToujours_mobilegridcell_82 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_88 */
+.MenuToujours_mobilelabel_88 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_85 */
+.MenuToujours_mobilegridcell_85 {
+	height:0px !important;
+	width:51px;
+	padding: 2px 2px 2px 2px;
+}
+.MenuToujours_mobilegridcell_85 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_89 */
+.MenuToujours_mobilelabel_89 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_86 */
+.MenuToujours_mobilegridcell_86 {
+	height:0px !important;
+	width:36px;
+	padding: 2px 2px 2px 2px;
+}
+.MenuToujours_mobilegridcell_86 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_90 */
+.MenuToujours_mobilelabel_90 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_87 */
+.MenuToujours_mobilegridcell_87 {
+	height:0px !important;
+	width:31px;
+	padding: 2px 2px 2px 2px;
+}
+.MenuToujours_mobilegridcell_87 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_91 */
+.MenuToujours_mobilelabel_91 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegrid_2 */
+.MenuToujours_mobilegrid_2 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.MenuToujours_mobilegrid_2_wrapper {
+
+}
+.MenuToujours_mobilegrid_2 > tr > td {
+	vertical-align: top;
+}
+.MenuToujours_mobilegrid_2_row_0, .MenuToujours_mobilegrid_2_row_0 > td {
+	height: 30px
+}
+/* mobilegridcell_3 */
+.MenuToujours_mobilegridcell_3 {
+	height:30px !important;
+	width:119px;
+	padding: 2px 2px 2px 2px;
+}
+.MenuToujours_mobilegridcell_3 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* food_name */
+.MenuToujours_food_name {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 14px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_4 */
+.MenuToujours_mobilegridcell_4 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.MenuToujours_mobilegridcell_4 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* small */
+.MenuToujours_small {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 14px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_32 */
+.MenuToujours_mobilegridcell_32 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.MenuToujours_mobilegridcell_32 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* medium */
+.MenuToujours_medium {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 14px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_33 */
+.MenuToujours_mobilegridcell_33 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.MenuToujours_mobilegridcell_33 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* large */
+.MenuToujours_large {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 14px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_34 */
+.MenuToujours_mobilegridcell_34 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.MenuToujours_mobilegridcell_34 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* one_onze */
+.MenuToujours_one_onze {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 14px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilecarouselitem_17 */
+.MenuToujours_mobilecarouselitem_17 .ui-carousel-box {
+	padding: 20px 0px 0px 0px;
+}
+/* mobilelabel_57 */
+.MenuToujours_mobilelabel_57 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegrid_74 */
+.MenuToujours_mobilegrid_74 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.MenuToujours_mobilegrid_74_wrapper {
+
+}
+.MenuToujours_mobilegrid_74 > tr > td {
+	vertical-align: top;
+}
+.MenuToujours_mobilegrid_74_row_0, .MenuToujours_mobilegrid_74_row_0 > td {
+	height: 30px
+}
+/* mobilegridcell_75 */
+.MenuToujours_mobilegridcell_75 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.MenuToujours_mobilegridcell_75 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_76 */
+.MenuToujours_mobilegridcell_76 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.MenuToujours_mobilegridcell_76 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_79 */
+.MenuToujours_mobilelabel_79 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 14px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* food_grid */
+.MenuToujours_food_grid {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.MenuToujours_food_grid_wrapper {
+
+}
+.MenuToujours_food_grid > tr > td {
+	vertical-align: top;
+}
+.MenuToujours_food_grid_row_0, .MenuToujours_food_grid_row_0 > td {
+	height: 30px
+}
+/* mobilegridcell_67 */
+.MenuToujours_mobilegridcell_67 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.MenuToujours_mobilegridcell_67 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* sandwiches */
+.MenuToujours_sandwiches {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 14px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_71 */
+.MenuToujours_mobilegridcell_71 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.MenuToujours_mobilegridcell_71 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* sand_price */
+.MenuToujours_sand_price {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 14px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilecarouselitem_56 */
+.MenuToujours_mobilecarouselitem_56 .ui-carousel-box {
+	padding: 0px 0px 0px 0px;
+}
+/* mobilelabel_39 */
+.MenuToujours_mobilelabel_39 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegrid_21 */
+.MenuToujours_mobilegrid_21 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.MenuToujours_mobilegrid_21_wrapper {
+
+}
+.MenuToujours_mobilegrid_21 > tr > td {
+	vertical-align: top;
+}
+.MenuToujours_mobilegrid_21_row_0, .MenuToujours_mobilegrid_21_row_0 > td {
+	height: 30px
+}
+.MenuToujours_mobilegrid_21_row_1, .MenuToujours_mobilegrid_21_row_1 > td {
+	height: 30px
+}
+/* mobilegridcell_22 */
+.MenuToujours_mobilegridcell_22 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.MenuToujours_mobilegridcell_22 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_26 */
+.MenuToujours_mobilelabel_26 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_23 */
+.MenuToujours_mobilegridcell_23 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.MenuToujours_mobilegridcell_23 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_30 */
+.MenuToujours_mobilelabel_30 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_24 */
+.MenuToujours_mobilegridcell_24 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.MenuToujours_mobilegridcell_24 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_31 */
+.MenuToujours_mobilelabel_31 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_25 */
+.MenuToujours_mobilegridcell_25 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.MenuToujours_mobilegridcell_25 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_29 */
+.MenuToujours_mobilelabel_29 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilebutton_92 */
+#MenuToujours_mobilebutton_92 {
+
+}
+.ui-btn.MenuToujours_mobilebutton_92 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilefooter */
+.MenuToujours_mobilefooter {
+	min-height:38px;
+}
+/* mobilenavbar_11 */
+.MenuToujours_mobilenavbar_11 {
+
+}
+.MenuToujours_mobilenavbar_11 .ui-grid-a .ui-block-a {
+	clear:none;
+}
+.ui-footer .MenuToujours_mobilenavbar_11 ul li:last-child a {
+	margin-right: 1px !important;
+}
+.ui-header .MenuToujours_mobilenavbar_11 ul li:last-child a {
+	margin-right: -1px !important;
+}
+.MenuToujours_mobilenavbar_11 ul.ui-grid-duo li:nth-child(even) a {
+	margin-right: 1px !important;
+}

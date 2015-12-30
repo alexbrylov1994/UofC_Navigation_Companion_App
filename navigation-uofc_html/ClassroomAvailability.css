@@ -1,0 +1,87 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_2 */
+#ClassroomAvailability_mobilebutton_2 {
+
+}
+.ui-btn.ClassroomAvailability_mobilebutton_2 {
+
+}
+/* mobilecontainer */
+.ui-content.ClassroomAvailability_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilegrid_7 */
+.ClassroomAvailability_mobilegrid_7 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.ClassroomAvailability_mobilegrid_7_wrapper {
+
+}
+.ClassroomAvailability_mobilegrid_7 > tr > td {
+	vertical-align: top;
+}
+.ClassroomAvailability_mobilegrid_7_row_0, .ClassroomAvailability_mobilegrid_7_row_0 > td {
+	height: 30px
+}
+/* mobilegridcell_8 */
+.ClassroomAvailability_mobilegridcell_8 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.ClassroomAvailability_mobilegridcell_8 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* class_name */
+.ClassroomAvailability_class_name {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_9 */
+.ClassroomAvailability_mobilegridcell_9 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.ClassroomAvailability_mobilegridcell_9 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* availability */
+.ClassroomAvailability_availability {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilefooter */
+.ClassroomAvailability_mobilefooter {
+	min-height:38px;
+}
+/* mobilenavbar_3 */
+.ClassroomAvailability_mobilenavbar_3 {
+
+}
+.ClassroomAvailability_mobilenavbar_3 .ui-grid-a .ui-block-a {
+	clear:none;
+}
+.ui-footer .ClassroomAvailability_mobilenavbar_3 ul li:last-child a {
+	margin-right: 1px !important;
+}
+.ui-header .ClassroomAvailability_mobilenavbar_3 ul li:last-child a {
+	margin-right: -1px !important;
+}
+.ClassroomAvailability_mobilenavbar_3 ul.ui-grid-duo li:nth-child(even) a {
+	margin-right: 1px !important;
+}

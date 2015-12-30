@@ -1,0 +1,45 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_7 */
+#MStudyAreas_mobilebutton_7 {
+
+}
+.ui-btn.MStudyAreas_mobilebutton_7 {
+
+}
+/* mobilecontainer */
+.ui-content.MStudyAreas_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* html_2 */
+.MStudyAreas_html_2 {
+	margin: 0px 0px 0px 0px;
+	font-weight: normal;
+	width: 270px; height: 490px;
+}
+div.MStudyAreas_html_2 {
+	overflow: auto;
+}
+/* mobilefooter */
+.MStudyAreas_mobilefooter {
+	min-height:38px;
+}
+/* mobilenavbar_3 */
+.MStudyAreas_mobilenavbar_3 {
+
+}
+.MStudyAreas_mobilenavbar_3 .ui-grid-a .ui-block-a {
+	clear:none;
+}
+.ui-footer .MStudyAreas_mobilenavbar_3 ul li:last-child a {
+	margin-right: 1px !important;
+}
+.ui-header .MStudyAreas_mobilenavbar_3 ul li:last-child a {
+	margin-right: -1px !important;
+}
+.MStudyAreas_mobilenavbar_3 ul.ui-grid-duo li:nth-child(even) a {
+	margin-right: 1px !important;
+}
